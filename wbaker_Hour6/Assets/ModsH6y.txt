@@ -1,0 +1,27 @@
+ __  __     __   __     __     ______   __  __    
+/\ \/\ \   /\ "-.\ \   /\ \   /\__  _\ /\ \_\ \   
+\ \ \_\ \  \ \ \-.  \  \ \ \  \/_/\ \/ \ \____ \  
+ \ \_____\  \ \_\\"\_\  \ \_\    \ \_\  \/\_____\ 
+  \/_____/   \/_/ \/_/   \/_/     \/_/   \/_____/                       
+                                                                                                                                                                  
+
+
+A. Add multiple finish zones. See if you can place them in a way that offers the player more choices. For example, a dangerous shortcut route vs an easy but lengthier one.
+
+Along with the standard route, there is an alternate path where you have to jump over increasingly taller lava walls to get to a slightly faster finish zone, and early on there is a very short route where you have to make difficult jumps to get to a different finish zone.
+
+
+B. Modify the level to have more, and different hazards. (At least 2 new hazards that are not water.)
+
+There are spike walls that take you back to the beginning if you touch it, and there are lava walls along an alternative route that work the same way, except you can jump over these ones if you time it right.
+
+
+C. Modify the game to include an element of verticality in your game to make use of the jumping mechanic! (spacebar to jump)
+
+There are multiple places where you have to jump, like the jagged rocks along the normal route or the long jumps during the alternate route at the very beginning, and there are also places where jumping gets you to another shortcut or saves you a bit of time.
+
+
+D. Modify the sky and textures to create a world based on your theme.
+
+
+I added lava and spiked wall textures and changed the floor to sand and made the skybox sunnier to give a beach theme to the world.
