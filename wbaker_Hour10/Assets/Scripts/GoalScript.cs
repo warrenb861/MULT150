@@ -5,6 +5,7 @@ using UnityEngine;
 public class GoalScript : MonoBehaviour
 {
     public bool isSolved = false;
+    public int numLeft = 1;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,9 +23,13 @@ public class GoalScript : MonoBehaviour
         GameObject collidedWith = collider.gameObject;
         if (collidedWith.tag == gameObject.tag)
         {
-            isSolved = true;
-            GetComponent<Light>().enabled = false;
+            numLeft -= 1;
             Destroy(collidedWith);
+            if (numLeft <= 0)
+            {
+                isSolved = true;
+                GetComponent<Light>().enabled = false;
+            }
         }
     }
 }
